@@ -337,11 +337,8 @@
   }
 
   .default-second-title-section .content__container-item {
-    grid-area: content;
-  }
-
-  .default-second-title-section .content__container-item {
     margin-left: 10px;
+    grid-area: content;
   }
 
   .content__gallery {
@@ -386,7 +383,6 @@
     max-width: 1024px;
     max-height: 768px;
   }
-
 
   .header__theme-menu-list {
     margin-right: 0px;
