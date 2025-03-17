@@ -69,8 +69,6 @@
   font-size: 18px;
   line-height: 130%;
   color: var(--header-text-color);
-  max-height: 117px;
-  height: 100%;
 }
 
 .decorated-zone::before {
@@ -122,7 +120,7 @@
 }
 
 .page {
-  background: var(--bg-header);
+  background: var(--bg);
   background-size: cover;
   background-attachment: fixed;
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
@@ -239,7 +237,7 @@
 }
 
 .link:hover {
-  text-decoration: underline;
+  border-bottom: 2px solid var(--conten-block-text-color);
 }
 
 .link:focus {
@@ -263,8 +261,7 @@
   }
 
   .header__theme-menu-list {
-    margin-right: 20px;
-    margin-top: 20px;
+    margin: 20px 20px 0px 0px;
   }
 
   .header__text {
@@ -308,37 +305,11 @@
     grid-area: content;
   }
 
-  .title-one-column-section {
-    grid-template-columns: 1fr 1fr 1fr;
+  .title-one-column {
     grid-template-rows: min-content 1fr;
     grid-template-areas:
       "title . ."
       "content content content";
-  }
-
-  .title-one-column-section .content__container-title {
-    grid-area: title;
-  }
-
-  .title-one-column-section .content__container-item {
-    grid-area: content;
-  }
-
-  .default-second-title-section {
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr;
-    grid-template-areas:
-      "title content content"
-      "title content content";
-  }
-
-  .default-second-title-section .content__container-title {
-    grid-area: title;
-  }
-
-  .default-second-title-section .content__container-item {
-    margin-left: 10px;
-    grid-area: content;
   }
 
   .content__gallery {
@@ -348,7 +319,6 @@
 
   .content__gallery-item {
     gap: 20px;
-    max-height: 780px;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: repeat(4, 1fr);
   }
@@ -386,15 +356,11 @@
 
   .header__theme-menu-list {
     flex-direction: row;
-    margin-right: 0px;
-    margin-top: 20px;
+    margin: 20px 0px 0px 0px;
   }
 
   .header__text {
     max-width: 491px;
-    max-height: 71px;
-    margin-right: 20px;
-    margin-bottom: 20px;
   }
 
   .content {
@@ -411,21 +377,13 @@
     align-self: start;
   }
 
-  .title-one-column-section .content__container-item {
+  .title-one-column .content__container-item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 20px;
   }
 
-  .content__gallery-item {
-    max-height: 1048px;
-  }
-
   .footer__text {
     font-size: 157px;
-  }
-
-  .default-second-title-section .content__container-item {
-    margin-left: 0px;
   }
 }
