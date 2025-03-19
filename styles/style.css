@@ -1,8 +1,4 @@
 /* Основные стили проекта. Это стили для темы, которую вы верстаете первой. */
-.mb-10px {
-  margin-bottom: 10px;
-}
-
 .header {
   display: grid;
   position: relative;
@@ -46,7 +42,7 @@
 
 .header__theme-menu-button:focus {
   outline: none;
-  border-bottom: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--header-menu-color-focus);
 }
 
 .header__theme-menu-button_active {
@@ -130,7 +126,6 @@
   display: flex;
   flex-direction: column;
   gap: 50px;
-  background: var(--bg-content);
   max-width: 768px;
   width: 100%;
   height: 100%;
@@ -185,6 +180,10 @@
   background-color: var(--accent-color);
 }
 
+.title-decor-margin {
+  margin-bottom: 10px;
+}
+
 .title-decor-lite {
   font-weight: 400;
 }
@@ -215,7 +214,6 @@
   display: grid;
   position: relative;
   align-items: center;
-  background: var(--bg-content);
   max-width: 768px;
   max-height: 1024px;
   height: 100vh;

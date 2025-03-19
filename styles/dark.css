@@ -12,7 +12,8 @@
   --bg: url("../images/cover-image-dark.png") no-repeat;
   --bg-content: #000028;
   --header-menu-color: rgba(255, 0, 112, 1);
-  --header-menu-color-hover: rgba(50, 49, 45, 0.4);
+  --header-menu-color-hover: rgba(255, 0, 112, 0.4);
+  --header-menu-color-focus: #ff0070;
   --accent-color: rgba(255, 0, 112, 1);
   --decoration-color: #ff0070;
   --title-color: #db00ff;
@@ -32,7 +33,8 @@
     --bg: url("../images/cover-image-dark.png") no-repeat;
     --bg-content: #000028;
     --header-menu-color: rgba(255, 0, 112, 1);
-    --header-menu-color-hover: rgba(50, 49, 45, 0.4);
+    --header-menu-color-hover: rgba(255, 0, 112, 0.4);
+    --header-menu-color-focus: #ff0070;
     --accent-color: rgba(255, 0, 112, 1);
     --decoration-color: #ff0070;
     --title-color: #db00ff;

@@ -17,7 +17,8 @@
   --header-text-color: #353430;
   --text-shadow-color: #ff8dcb;
   --header-menu-color: #353430;
-  --header-menu-color-hover: rgba(255, 0, 112, 0.4);
+  --header-menu-color-hover: rgba(50, 49, 45, 0.4);
+  --header-menu-color-focus: #353430;
   --block-title-color: #353430;
   --conten-block-title-color: #353430;
   --conten-block-text-color: #353430;
@@ -37,7 +38,8 @@
     --header-text-color: #353430;
     --text-shadow-color: #ff8dcb;
     --header-menu-color: #353430;
-    --header-menu-color-hover: rgba(255, 0, 112, 0.4);
+    --header-menu-color-hover: rgba(50, 49, 45, 0.4);
+    --header-menu-color-focus: #353430;
     --block-title-color: #353430;
     --conten-block-title-color: #353430;
     --conten-block-text-color: #353430;
