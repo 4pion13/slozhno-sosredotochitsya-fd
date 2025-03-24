@@ -301,7 +301,7 @@
     grid-area: content;
   }
 
-  .title-one-column {
+  .content__title-layout {
     grid-template-rows: min-content 1fr;
     grid-template-areas:
       "title . ."
@@ -359,10 +359,9 @@
     align-self: start;
   }
 
-  .title-one-column .content__container-item {
+  .content__title-layout .content__container-item {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 20px;
   }
 
   .footer__text {
